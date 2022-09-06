@@ -1,0 +1,25 @@
+RUN	com.gatling.tests.api.PostPutDeleteAPI	postputdeleteapi	1662383739758	Post Demo5	3.6.1
+ERROR	create new user: Failed to build request: No baseUrl defined but provided url is relative : /users 	1662383744741
+USER	Create User	START	1662383744733
+USER	update user	START	1662383744735
+ERROR	create new user: Failed to build request: No baseUrl defined but provided url is relative : /users 	1662383745716
+USER	update user	START	1662383745701
+USER	Create User	START	1662383745715
+REQUEST		update user	1662383744774	1662383745825	KO	status.find.is(201), but actually found 404
+REQUEST		update user	1662383745709	1662383746417	KO	status.find.is(201), but actually found 404
+ERROR	create new user: Failed to build request: No baseUrl defined but provided url is relative : /users 	1662383746712
+USER	Create User	START	1662383746712
+USER	Create User	END	1662383746761
+ERROR	create new user: Failed to build request: No baseUrl defined but provided url is relative : /users 	1662383747699
+USER	Create User	START	1662383747698
+USER	update user	START	1662383747698
+USER	Create User	END	1662383747720
+USER	update user	END	1662383747926
+USER	update user	END	1662383748436
+REQUEST		update user	1662383747700	1662383748548	KO	status.find.is(201), but actually found 404
+ERROR	create new user: Failed to build request: No baseUrl defined but provided url is relative : /users 	1662383748700
+USER	Create User	START	1662383748700
+USER	Create User	END	1662383748715
+USER	Create User	END	1662383749708
+USER	update user	END	1662383750581
+USER	Create User	END	1662383750707

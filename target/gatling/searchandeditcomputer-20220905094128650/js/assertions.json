@@ -1,0 +1,10 @@
+{
+  "simulation": "com.gatling.tests.SearchAndEditComputer",
+  "simulationId": "searchandeditcomputer",
+  "start": 1662370888650,
+  "description": "Search and Edit with Rampup user role",
+  "scenarios": ["Users", "Admins"],
+  "assertions": [
+
+  ]
+}

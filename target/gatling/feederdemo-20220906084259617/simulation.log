@@ -1,0 +1,3 @@
+RUN	com.gatling.tests.FeederDemo	feederdemo	1662453779617	check names for 3 times	3.6.1
+USER	Feeder Demo	START	1662453779786
+USER	Feeder Demo	END	1662453782844

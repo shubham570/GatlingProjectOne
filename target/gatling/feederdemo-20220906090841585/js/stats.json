@@ -1,0 +1,551 @@
+{
+  "type": "GROUP",
+"name": "Global Information",
+"path": "",
+"pathFormatted": "group_missing-name-b06d1",
+"stats": {
+    "name": "Global Information",
+    "numberOfRequests": {
+        "total": 6,
+        "ok": 6,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 279,
+        "ok": 279,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 889,
+        "ok": 889,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 576,
+        "ok": 576,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 296,
+        "ok": 296,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 571,
+        "ok": 571,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 863,
+        "ok": 863,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 883,
+        "ok": 883,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 888,
+        "ok": 888,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 3,
+    "percentage": 50
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 3,
+    "percentage": 50
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 2.0,
+        "ok": 2.0,
+        "ko": 0
+    }
+},
+"contents": {
+"req_goto---computer-e4f83": {
+        "type": "REQUEST",
+        "name": "Goto  /computers/new",
+"path": "Goto  /computers/new",
+"pathFormatted": "req_goto---computer-e4f83",
+"stats": {
+    "name": "Goto  /computers/new",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 863,
+        "ok": 863,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 863,
+        "ok": 863,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 863,
+        "ok": 863,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 863,
+        "ok": 863,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 863,
+        "ok": 863,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 863,
+        "ok": 863,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 863,
+        "ok": 863,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 1,
+    "percentage": 100
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.3333333333333333,
+        "ok": 0.3333333333333333,
+        "ko": 0
+    }
+}
+    },"req_goto---computer-93c66": {
+        "type": "REQUEST",
+        "name": "Goto  /computers/381",
+"path": "Goto  /computers/381",
+"pathFormatted": "req_goto---computer-93c66",
+"stats": {
+    "name": "Goto  /computers/381",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 889,
+        "ok": 889,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 889,
+        "ok": 889,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 889,
+        "ok": 889,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 889,
+        "ok": 889,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 889,
+        "ok": 889,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 889,
+        "ok": 889,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 889,
+        "ok": 889,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 1,
+    "percentage": 100
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.3333333333333333,
+        "ok": 0.3333333333333333,
+        "ko": 0
+    }
+}
+    },"req_goto---computer-8ca84": {
+        "type": "REQUEST",
+        "name": "Goto  /computers",
+"path": "Goto  /computers",
+"pathFormatted": "req_goto---computer-8ca84",
+"stats": {
+    "name": "Goto  /computers",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 862,
+        "ok": 862,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 862,
+        "ok": 862,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 862,
+        "ok": 862,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 862,
+        "ok": 862,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 862,
+        "ok": 862,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 862,
+        "ok": 862,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 862,
+        "ok": 862,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 1,
+    "percentage": 100
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.3333333333333333,
+        "ok": 0.3333333333333333,
+        "ko": 0
+    }
+}
+    },"req_goto---computer-862ee": {
+        "type": "REQUEST",
+        "name": "Goto  /computers/new Redirect 1",
+"path": "Goto  /computers/new Redirect 1",
+"pathFormatted": "req_goto---computer-862ee",
+"stats": {
+    "name": "Goto  /computers/new Redirect 1",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 279,
+        "ok": 279,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 279,
+        "ok": 279,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 279,
+        "ok": 279,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 279,
+        "ok": 279,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 279,
+        "ok": 279,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 279,
+        "ok": 279,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 279,
+        "ok": 279,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 1,
+    "percentage": 100
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.3333333333333333,
+        "ok": 0.3333333333333333,
+        "ko": 0
+    }
+}
+    },"req_goto---computer-bd4b1": {
+        "type": "REQUEST",
+        "name": "Goto  /computers Redirect 1",
+"path": "Goto  /computers Redirect 1",
+"pathFormatted": "req_goto---computer-bd4b1",
+"stats": {
+    "name": "Goto  /computers Redirect 1",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 280,
+        "ok": 280,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 280,
+        "ok": 280,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 280,
+        "ok": 280,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 280,
+        "ok": 280,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 280,
+        "ok": 280,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 280,
+        "ok": 280,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 280,
+        "ok": 280,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 1,
+    "percentage": 100
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.3333333333333333,
+        "ok": 0.3333333333333333,
+        "ko": 0
+    }
+}
+    },"req_goto---computer-c02e5": {
+        "type": "REQUEST",
+        "name": "Goto  /computers/381 Redirect 1",
+"path": "Goto  /computers/381 Redirect 1",
+"pathFormatted": "req_goto---computer-c02e5",
+"stats": {
+    "name": "Goto  /computers/381 Redirect 1",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 280,
+        "ok": 280,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 280,
+        "ok": 280,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 280,
+        "ok": 280,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 280,
+        "ok": 280,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 280,
+        "ok": 280,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 280,
+        "ok": 280,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 280,
+        "ok": 280,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 1,
+    "percentage": 100
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.3333333333333333,
+        "ok": 0.3333333333333333,
+        "ko": 0
+    }
+}
+    }
+}
+
+}

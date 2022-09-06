@@ -1,0 +1,16 @@
+RUN	com.gatling.tests.api.PostPutDeleteAPI	postputdeleteapi	1662382264100	Post Demo2	3.6.1
+USER	Create User	START	1662382266732
+REQUEST		create new user	1662382266764	1662382267180	KO	jsonPath($.name).find.is(John), but actually found morpheus
+USER	Create User	END	1662382267281
+USER	Create User	START	1662382267722
+REQUEST		create new user	1662382267726	1662382268306	KO	jsonPath($.name).find.is(John), but actually found morpheus
+USER	Create User	END	1662382268318
+USER	Create User	START	1662382268724
+REQUEST		create new user	1662382268726	1662382269158	KO	jsonPath($.name).find.is(John), but actually found morpheus
+USER	Create User	END	1662382269165
+USER	Create User	START	1662382269712
+REQUEST		create new user	1662382269714	1662382270311	KO	jsonPath($.name).find.is(John), but actually found morpheus
+USER	Create User	END	1662382270317
+USER	Create User	START	1662382270715
+REQUEST		create new user	1662382270717	1662382271152	KO	jsonPath($.name).find.is(John), but actually found morpheus
+USER	Create User	END	1662382271158
